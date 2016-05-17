@@ -46,12 +46,12 @@ a {
 .div-menu {
     height: 40px;
     background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0, #5E5E5E),
-	color-stop(1, #464646)
-    );
+     linear,
+     left top,
+     left bottom,
+     color-stop(0, #5E5E5E),
+     color-stop(1, #464646)
+     );
     background-image: -o-linear-gradient(bottom, #5E5E5E 0%, #464646 100%);
     background-image: -moz-linear-gradient(bottom, #5E5E5E 0%, #464646 100%);
     background-image: -webkit-linear-gradient(bottom, #5E5E5E 0%, #464646 100%);

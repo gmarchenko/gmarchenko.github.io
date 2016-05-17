@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #e6e6e6;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    font-size: 10pt;
+}
+
+body {
+    background: #000 url("../img/Backgrond.jpg") no-repeat center 0;
+}
+
+.container {
+    width: 960px;
+    height: 885px;
+    margin: 0 auto;
+    padding: 0 69px;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/*Header*/
+.header {
+    margin: 0px 69px 6px 69px;
+}
+
+.palm {
+    margin: 57px 0 0 143px;
+    position: absolute;
+}
+
+.logo {
+    position: absolute;
+    margin: 130px 0 0 0; 
+    text-align: center;
+}
+
+.slogan {
+    margin-top: 9px;
+}
+
+.contacts {
+    margin-top: 153px;
+    float: right;
+}
+
+.contactus {
+    margin-bottom: 8px;
+}
+
+.info {
+    font-size: 8pt;
+}
+
+/*Content*/
+.content {
+    height: 600px;
+    margin: 0px 62px;
+}
+
+.country {
+    float: left;
+    margin: 26px 9px;
+    text-align: center;
+}
+
+.image {
+    -webkit-box-shadow: 0px 0px 4px 4px rgba(155,155,155,1);
+    -moz-box-shadow: 0px 0px 4px 4px rgba(155,155,155,1);
+    box-shadow: 0px 0px 4px 4px rgba(155,155,155,1);
+}
+
+.image:hover {
+    -webkit-box-shadow: 0px 0px 4px 4px rgba(255,0,0,1);
+    -moz-box-shadow: 0px 0px 4px 4px rgba(255,0,0,1);
+    box-shadow: 0px 0px 4px 4px rgba(255,0,0,1);
+}
+
+/*Footer*/
+.footer {
+    margin-bottom: 31px;
+    text-align: center;
+}
