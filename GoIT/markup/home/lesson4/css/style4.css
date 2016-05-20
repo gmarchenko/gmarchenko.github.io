@@ -1,0 +1,227 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    font-size: 9pt;   
+}
+
+body {
+    background: url("../img/background.jpg") repeat-x;
+    background-position-y: -38px;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.container {
+    margin: 0 auto 38px;
+    width: 1000px;
+    height: 988px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 6px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+/* HEADER */
+.header {
+    height: 175px;
+    /*border-bottom: 1px solid black;*/
+    /*padding: 11px 29px 0 29px;*/
+}
+
+.logo {
+    position: absolute;
+    margin: 11px 0 0 29px;
+}
+
+.contacts {
+    margin: 11px 32px;
+    float: right;
+    clear: left;
+}
+
+.contacts p {
+    margin: 5px 0;
+    color: #128aa7;
+}
+
+.contact {
+    font-weight: bold;
+}
+
+.countries {
+    margin: 11px 32px 0;
+    clear: both;
+    float: right;
+}
+
+.country {
+    float: right;
+    margin: 0 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.country:hover>img {
+    width: 42px;
+    height: 42px;
+    background: red;
+    -moz-border-radius: 21px;
+    -webkit-border-radius: 21px;
+    border-radius: 21px;
+}
+
+.country a {
+    display: block;
+    color: #128aa7;
+    font-size: 7pt;
+}
+
+
+.sea {
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
+}
+
+/* MENU */
+
+.bigmenu {
+    position: relative;
+    height: 30px;
+    margin: -5px auto 0;
+    background: #303030;
+    background: -moz-linear-gradient(top, #303030 0%, #373737 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #303030), color-stop(100%, #373737));
+    background: -webkit-linear-gradient(top, #303030 0%, #373737 100%);
+    background: -o-linear-gradient(top, #303030 0%, #373737 100%);
+    background: -ms-linear-gradient(top, #303030 0%, #373737 100%);
+    background: linear-gradient(to bottom, #303030 0%, #373737 100%);
+}
+
+.menu {
+    height: 100%;
+    border-bottom: 2px solid #000;
+    -webkit-box-shadow: 0px 2px 1px 1px rgba(178,178,180,0.75);
+    -moz-box-shadow: 0px 2px 1px 1px rgba(178,178,180,0.75);
+    box-shadow: 0px 2px 1px 1px rgba(178,178,180,0.75);
+}
+
+.menu li {
+    height: 100%;
+    list-style: none;
+    padding: 0 33px;
+    display: block;
+    float: left;
+    /*cursor: pointer;*/
+}
+
+.menu a {
+    display: block;
+    /*margin-top: 5px;*/
+    color: #fff;
+    font-size: 11pt;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.dropdown a {
+    float: left;
+    line-height: 30px;
+    margin: 0 5px;
+}
+
+.dropdown img {
+    margin-top: 13px;
+}
+
+.menu li:hover {
+    background: #000;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+
+.submenu {
+    position: absolute;
+    display: none;
+    top: 30px;
+    left: 121px;
+    background: #373737;
+    border-top: 2px solid;
+    -webkit-box-shadow: 1px 5px 4px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 4px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 5px 4px 1px rgba(0,0,0,0.75);
+}
+
+.submenu li {
+    list-style: none;
+    padding: 0 50px 0 33px;
+    display: block;
+    clear: both;
+}
+
+.submenu a {
+    display: block;
+    color: #fff;
+    font-size: 11pt;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+/* CONTENT */
+.content {
+    float: left;
+    background: url("../img/article_bg.png") repeat-y;
+}
+
+.content p {
+    margin: 0 15px;
+    color: #424c43;
+    font-size: 11pt;
+    line-height: 25px;
+}
+
+.content h2 { 
+    margin: 9px auto;
+    color: #424c43;
+    font-weight: normal;
+    text-align: center;
+    font-size: 14pt;
+    line-height: 25px;
+}
+
+.news {
+    display: block;
+    float: right;
+    width: 21%;
+}
+
+.article {
+    display: block;
+    width: 58%;
+    float: left;
+} 
+
+.info {
+    display: block;
+    float: left;
+    width: 21%;
+}
+
+.copyright {   
+    margin: -30px auto;
+    color: #fff;
+    font-size: 10pt;
+    text-align: center;
+}
+
+
+
+
+
