@@ -5,9 +5,9 @@ body {
 
 }
 @font-face {
-    font-family: 'helveticaneue-thin-webfont' no-repeat center center fixed;
-    src: url('helveticaneue-thin-webfont.woff2') format('woff2'),
-    url('helveticaneue-thin-webfont.woff') format('woff');
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -27,11 +27,11 @@ body {
     display: inline-block;
     position: relative;
     color: #ffffff;
-    font: 400 14px / 14px 'helveticaneue-thin-webfont';
+    font: 400 14px / 14px 'Helvetica Neue';
 }
 .menu-link {
     color: #60b5ed;
-    font: 400 14px / 14px 'helveticaneue-thin-webfont';
+    font: 400 14px / 14px 'Helvetica Neue';
     padding: 10px;
     text-decoration: none;
 }
@@ -63,7 +63,7 @@ body {
 }
 .external-link {
     color: #fefefe;
-    font: 400 14px / 14px 'helveticaneue-thin-webfont';
+    font: 400 14px / 14px 'Helvetica Neue';
 }
 .underline {
     text-decoration: underline;
@@ -97,7 +97,7 @@ body {
     padding-top: 20px;
     background-color: rgba(0, 0, 0, 0.63);
     text-align: center;
-    font-family: 'helveticaneue-thin-webfont';
+    font-family: 'Helvetica Neue';
     font-size: 24px;
     font-weight: 500;
     color: white;
@@ -110,7 +110,7 @@ body {
     margin-top: 2px;
     background-color: rgba(0, 0, 0, 0.63);
     text-align: center;
-    font-family: 'helveticaneue-thin-webfont';
+    font-family: 'Helvetica Neue';
     color: white;
 }
 .button {
@@ -209,7 +209,7 @@ input {
     background: -ms-linear-gradient(top, rgba(17,17,17,1) 15%, rgba(17,17,17,1) 28%, rgba(17,17,17,0.99) 32%, rgba(15,14,14,0.96) 57%, rgba(15,14,14,0.9) 93%);
     background: linear-gradient(to bottom, rgba(17,17,17,1) 15%, rgba(17,17,17,1) 28%, rgba(17,17,17,0.99) 32%, rgba(15,14,14,0.96) 57%, rgba(15,14,14,0.9) 93%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#0f0e0e', GradientType=0 );
-    font-family: 'helveticaneue-thin-webfont';
+    font-family: 'Helvetica Neue';
     font-size: 16px;
     color: white;
 }
