@@ -34,7 +34,7 @@
     -moz-box-shadow: 2px 2px 6px -3px rgba(150, 150, 150, 1);
     box-shadow: 1px 3px 3px 0.00px rgba(150, 150, 150, 0.75);
     border-radius: 3px;
-    font: 400 12px / 28px 'Lucida Sans Unicode';
+    font: 400 12px / 28px 'Lucida Sans Unicode', sans-serif;
     transform: scale(0.877,0.909);
 }
 .form img {
@@ -49,14 +49,14 @@
     margin-left: 0px;
     margin-right: -15px;
     padding-top: 2px;
-    font: 400 12px / 28px 'Lucida Sans Unicode';
+    font: 400 12px / 28px 'Lucida Sans Unicode', sans-serif;
     transform: scale(0.877,0.909);
 }
 .enter {
     padding-left: 10px;
     cursor: pointer;
     color: white;
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode", sans-serif;
     font-size: 11px;
 }
 .registration {
@@ -65,7 +65,7 @@
     border-left: 1px solid white;
     cursor: pointer;
     color: white;
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode", sans-serif;
     font-size: 11px;
 }
 .forgotpass {
@@ -94,9 +94,7 @@
 .upmenu img {
     padding-left: 8px;
 }
-
-
-.logo img{
+.logo img {
     margin-top: 10px;
     margin-left: 218px;
 }
@@ -120,36 +118,36 @@
     box-shadow: 1px 3px 5px 0.00px rgba(0, 0, 0, 0.75);
 
 }
-.leftpart li {
+.info li {
     float: left;
     display: inline-block;
     color: #b1bcc0;
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode", sans-serif;
     font-size: 14px;
     text-transform: uppercase;
 }
-.leftpart li:nth-child(1) {
+.info li:nth-child(1) {
     padding: 5px 16px 5px 21px;
     margin-left: 12px;
     margin-top:1px;
 }
-.leftpart li:nth-child(2) {
+.info li:nth-child(2) {
     padding: 6px 16px 4px 13px;
     margin-left: 3px;
 }
-.leftpart li:nth-child(3) {
+.info li:nth-child(3) {
     padding: 6px 11px 4px 9px;
     margin-left: 3px;
 }
-.leftpart li:nth-child(4) {
+.info li:nth-child(4) {
     padding: 6px 11px 4px 9px;
     margin-left: 9px;
 }
-.leftpart li:nth-child(5) {
+.info li:nth-child(5) {
     padding: 6px 10px 4px 9px;
     margin-left: 4px;
 }
-.leftpart li:hover {
+.info li:hover {
     background-color: #1c5e7e;
     text-align: center;
     font-size: 14px;
@@ -159,7 +157,7 @@
     border-bottom-right-radius: 30px 25px;
     border-top-right-radius: 25px 30px;
 }
-.rightpart:before {
+.buy:before {
     content: "";
     background: url(../img/backet.png) no-repeat;
     position: absolute;
@@ -168,30 +166,30 @@
     top: 305px;
     left: 900px;
 }
-.rightpart {
+.buy {
     margin-left: 573px;
 }
-.rightpart li {
+.buy li {
     display: inline-block;
     color: #72797d;
     font-family: Arial;
     font-size: 11px;
 }
-.rightpart li:nth-child(1) {
+.buy li:nth-child(1) {
     margin: 6px 0 0 26px;
     padding: 0 -1px 0 0;
     font-size: 11px;
 }
-.rightpart li:nth-child(2) {
+.buy li:nth-child(2) {
     margin-top: 5px;
     color: #0d5a8f;
     font-size: 13px;
 }
-.rightpart li:nth-child(3) {
+.buy li:nth-child(3) {
     margin: 6px 0 0 11px;
     font-size: 11px;
 }
-.rightpart li:nth-child(4) {
+.buy li:nth-child(4) {
     margin-left: 5px;
     color: #0d5a8f;
     font-family: Arial;
@@ -222,7 +220,7 @@
     display: inline-block;
     padding: 7px 0px 2px 25px;
     color: #114165;
-    font-family: 'Lucida Sans Unicode', Arial;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
     font-size: 13px;
 }
 .sidebartitle img {
@@ -240,7 +238,7 @@
     display: inline-block;
     padding: 7px 0px 3px 30px;
     color: #114165;
-    font-family: 'Lucida Sans Unicode', Arial;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
     font-size: 13px;
 }
 .sidebartitle2 img {
@@ -293,7 +291,7 @@
 }
 .sidebarsubtitle {
     color: #114165;
-    font-family: 'Lucida Sans Unicode', Arial;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
     font-size: 15px;
     display: inline-block;
     padding: 6px 6px 5px 28px;
@@ -309,7 +307,7 @@
 }
 .sidebarli a {
     color: #114165;
-    font-family: 'Lucida Sans Unicode', Arial;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
     font-size: 13px;
     text-decoration: none;
     padding-bottom: 2px;
@@ -356,7 +354,7 @@
 }
 span.brand {
     color: #114165;
-    font-family: 'Lucida Sans Unicode', Arial;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
     font-size: 13px;
     display: inline-block;
     padding: 0px 0px 2px 3px;
@@ -377,7 +375,7 @@ span.brand:hover {
 
 .item strong {
     display: block;
-    font-family: 'Lucida Sans Unicode', Arial;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
     color: #206988;
     font-size: 15px;
     font-weight: bold;
@@ -386,7 +384,7 @@ span.brand:hover {
 
 .item span {
     display: block;
-    font-family: 'Lucida Sans Unicode', Arial;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
     font-size: 13px;
     text-align: center;
     color: black;
@@ -409,7 +407,7 @@ span.prices {
     margin-left: 10px;
     margin-bottom: 9px;
     color: #114165;
-    font: italic 700 18px / 11px Arial;
+    font: italic 700 18px / 11px Arial, sans-serif;
     transform: scale(0.912,0.912);
 }
 .item a {
