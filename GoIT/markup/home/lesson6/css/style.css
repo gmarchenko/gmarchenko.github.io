@@ -1,12 +1,12 @@
-.phone:before {
+.phones:before {
     content: "";
-    background: url(../img/phone.png) no-repeat;
+    background: url(../img/phones.png) no-repeat;
     position: absolute;
     height: 23px;
     width: 21px;
     margin-left: -25px;
 }
-.phone {
+.phones {
     float: left;
     width: 294px;
     height: 20px;
@@ -94,7 +94,7 @@
 .upmenu img {
     padding-left: 8px;
 }
-.logo img {
+.mainpic img {
     margin-top: 10px;
     margin-left: 218px;
 }
@@ -118,7 +118,7 @@
     box-shadow: 1px 3px 5px 0.00px rgba(0, 0, 0, 0.75);
 
 }
-.info li {
+.leftpart li {
     float: left;
     display: inline-block;
     color: #b1bcc0;
@@ -126,28 +126,28 @@
     font-size: 14px;
     text-transform: uppercase;
 }
-.info li:nth-child(1) {
+.leftpart li:nth-child(1) {
     padding: 5px 16px 5px 21px;
     margin-left: 12px;
     margin-top:1px;
 }
-.info li:nth-child(2) {
+.leftpart li:nth-child(2) {
     padding: 6px 16px 4px 13px;
     margin-left: 3px;
 }
-.info li:nth-child(3) {
+.leftpart li:nth-child(3) {
     padding: 6px 11px 4px 9px;
     margin-left: 3px;
 }
-.info li:nth-child(4) {
+.leftpart li:nth-child(4) {
     padding: 6px 11px 4px 9px;
     margin-left: 9px;
 }
-.info li:nth-child(5) {
+.leftpart li:nth-child(5) {
     padding: 6px 10px 4px 9px;
     margin-left: 4px;
 }
-.info li:hover {
+.leftpart li:hover {
     background-color: #1c5e7e;
     text-align: center;
     font-size: 14px;
@@ -157,7 +157,7 @@
     border-bottom-right-radius: 30px 25px;
     border-top-right-radius: 25px 30px;
 }
-.buy:before {
+.rightpart:before {
     content: "";
     background: url(../img/backet.png) no-repeat;
     position: absolute;
@@ -166,30 +166,30 @@
     top: 305px;
     left: 900px;
 }
-.buy {
+.rightpart {
     margin-left: 573px;
 }
-.buy li {
+.rightpart li {
     display: inline-block;
     color: #72797d;
     font-family: Arial;
     font-size: 11px;
 }
-.buy li:nth-child(1) {
+.rightpart li:nth-child(1) {
     margin: 6px 0 0 26px;
     padding: 0 -1px 0 0;
     font-size: 11px;
 }
-.buy li:nth-child(2) {
+.rightpart li:nth-child(2) {
     margin-top: 5px;
     color: #0d5a8f;
     font-size: 13px;
 }
-.buy li:nth-child(3) {
+.rightpart li:nth-child(3) {
     margin: 6px 0 0 11px;
     font-size: 11px;
 }
-.buy li:nth-child(4) {
+.rightpart li:nth-child(4) {
     margin-left: 5px;
     color: #0d5a8f;
     font-family: Arial;
@@ -220,7 +220,7 @@
     display: inline-block;
     padding: 7px 0px 2px 25px;
     color: #114165;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Arial;
     font-size: 13px;
 }
 .sidebartitle img {
@@ -238,7 +238,7 @@
     display: inline-block;
     padding: 7px 0px 3px 30px;
     color: #114165;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Arial;
     font-size: 13px;
 }
 .sidebartitle2 img {
@@ -291,7 +291,7 @@
 }
 .sidebarsubtitle {
     color: #114165;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Arial;
     font-size: 15px;
     display: inline-block;
     padding: 6px 6px 5px 28px;
@@ -307,7 +307,7 @@
 }
 .sidebarli a {
     color: #114165;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Arial;
     font-size: 13px;
     text-decoration: none;
     padding-bottom: 2px;
@@ -317,7 +317,6 @@
     font-style: italic;
     font-weight: bold;
     font-family: Arial;
-    font-size: 14px;
     text-decoration: underline;
 }
 .content {
@@ -333,11 +332,18 @@
     padding: 3px 0px 0px 20px;
 }
 .sidebar2 button {
-    background-color: #195779;
     border-radius: 19px;
     border-style: none;
     margin: 25px 22px;
-    box-shadow: 1px 3px 5px 0.00px rgba(0, 0, 0, 0.75);;
+    box-shadow: 1px 3px 5px 0.00px rgba(0, 0, 0, 0.75);
+    background: rgba(31,101,133,1);
+background: -moz-linear-gradient(top, rgba(31,101,133,1) 0%, rgba(13,54,90,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(31,101,133,1)), color-stop(100%, rgba(13,54,90,1)));
+background: -webkit-linear-gradient(top, rgba(31,101,133,1) 0%, rgba(13,54,90,1) 100%);
+background: -o-linear-gradient(top, rgba(31,101,133,1) 0%, rgba(13,54,90,1) 100%);
+background: -ms-linear-gradient(top, rgba(31,101,133,1) 0%, rgba(13,54,90,1) 100%);
+background: linear-gradient(to bottom, rgba(31,101,133,1) 0%, rgba(13,54,90,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6585', endColorstr='#0d365a', GradientType=0 );
 }
 .sidebar2 button:hover {
     cursor: pointer;
@@ -354,7 +360,7 @@
 }
 span.brand {
     color: #114165;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Arial;
     font-size: 13px;
     display: inline-block;
     padding: 0px 0px 2px 3px;
@@ -375,7 +381,7 @@ span.brand:hover {
 
 .item strong {
     display: block;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Arial;
     color: #206988;
     font-size: 15px;
     font-weight: bold;
@@ -384,7 +390,7 @@ span.brand:hover {
 
 .item span {
     display: block;
-    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Arial;
     font-size: 13px;
     text-align: center;
     color: black;
@@ -407,7 +413,7 @@ span.prices {
     margin-left: 10px;
     margin-bottom: 9px;
     color: #114165;
-    font: italic 700 18px / 11px Arial, sans-serif;
+    font: italic 700 18px / 11px Arial;
     transform: scale(0.912,0.912);
 }
 .item a {

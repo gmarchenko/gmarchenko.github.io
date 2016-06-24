@@ -1,14 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome</title>
+    <title>task6</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
-    <div class="phone">  (044)123-45-67 (044)567-89-10</div>
+    <div class="phones">  (044)123-45-67 (044)567-89-10</div>
     <div class="form">
         <img src="img/author.png">
         <form>
@@ -21,10 +22,10 @@
     </div>
     <div class="upmenu"><a href="#"><img src="img/home.png"><img src="img/tree.png"><img src="img/mail.png"></a></div>
 </header>
-<div class="logo"><img src="img/logo.png"></div>
+<div class="mainpic"><img src="img/logo.png"></div>
 <nav>
     <div class="menu">
-        <div class="info">
+        <div class="leftpart">
             <ul>
                 <li>о компани</li>
                 <li>оплата</li>
@@ -32,7 +33,7 @@
                 <li>статьи</li>
                 <li>контакты</li>
             </ul></div>
-        <div class="buy">
+        <div class="rightpart">
             <ul>
                 <li>товаров:</li>
                 <li>0</li>
@@ -42,8 +43,9 @@
         </div>
     </div>
 </nav>
-
-<div class="middle clearfix">
+<main>
+<div class="main clearfix">
+<aside>
     <div class="sidebar">
         <div class="sidebartitle">
             <img src="img/list.png" alt="">
@@ -80,82 +82,120 @@
             <li><a href="#">Наименование 4</a></li>
         </ul>
     </div>
+    </aside>
     <div class="content">
         <div class="contentwrap clearfix">
             <div class="item">
                 <a href="#">
                     <strong>Goodyear</strong>
                     <span>Ultra Grip Extreme</span>
+                    <figure>
                     <span class="itemimg"><img src="img/gyear.jpg" alt=""></span>
+                    </figure>
                 </a>
+                <figcaption>
                 <span class="prices">90.00 <b style="font-size:13px;">грн.</b></span>
+                </figcaption>
             </div>
             <div class="item">
                 <a href="#">
                     <strong>Nokian</strong>
                     <span>Hakkapelita R</span>
+                    <figure>
                     <span class="itemimg"><img src="img/nokian.jpg" alt=""></span>
+                    </figure>
                 </a>
+                <figcaption>
                 <span class="prices">115.00 <b style="font-size:13px;">грн.</b></span>
+                </figcaption>
             </div>
             <div class="item">
                 <a href="#">
                     <strong>Hankook</strong>
                     <span>K 708 155/65 R14</span>
+                    <figure>
                     <span class="itemimg"><img src="img/hkook.jpg" alt=""></span>
+                    </figure>
                 </a>
+                <figcaption>
                 <span class="prices">393.00 <b style="font-size:13px;">грн.</b></span>
+                </figcaption>
             </div>
             <div class="item">
                 <a href="#">
                     <strong>Goodyear</strong>
                     <span>Ultra Grip Extreme</span>
+                    <figure>
                     <span class="itemimg"><img src="img/gyear.jpg" alt=""></span>
+                    </figure>
                 </a>
+                <figcaption>
                 <span class="prices">90.00 <b style="font-size:13px;">грн.</b></span>
+                </figcaption>
             </div>
             <div class="item">
                 <a href="#">
                     <strong>Nokian</strong>
                     <span>Hakkapelita R</span>
+                    <figure>
                     <span class="itemimg"><img src="img/nokian.jpg" alt=""></span>
+                    </figure>
                 </a>
+                <figcaption>
                 <span class="prices">115.00 <b style="font-size:13px;">грн.</b></span>
+                </figcaption>
             </div>
             <div class="item">
                 <a href="#">
                     <strong>Hankook</strong>
                     <span>K 708 155/65 R14</span>
+                    <figure>
                     <span class="itemimg"><img src="img/hkook.jpg" alt=""></span>
+                    </figure>
                 </a>
+                <figcaption>
                 <span class="prices">393.00 <b style="font-size:13px;">грн.</b></span>
+                </figcaption>
             </div>
             <div class="item">
                 <a href="#">
                     <strong>Goodyear</strong>
                     <span>Ultra Grip Extreme</span>
+                    <figure>
                     <span class="itemimg"><img src="img/gyear.jpg" alt=""></span>
+                    </figure>
                 </a>
+                <figcaption>
                 <span class="prices">90.00 <b style="font-size:13px;">грн.</b></span>
+                </figcaption>
             </div>
             <div class="item">
                 <a href="#">
                     <strong>Nokian</strong>
                     <span>Hakkapelita R</span>
+                    <figure>
                     <span class="itemimg"><img src="img/nokian.jpg" alt=""></span>
+                    </figure>
                 </a>
+                <figcaption>
                 <span class="prices">115.00 <b style="font-size:13px;">грн.</b></span>
+                </figcaption>
             </div>
             <div class="item">
                 <a href="#">
                     <strong>Hankook</strong>
                     <span>K 708 155/65 R14</span>
+                    <figure>
                     <span class="itemimg"><img src="img/hkook.jpg" alt=""></span>
+                    </figure>
                 </a>
+                <figcaption>
                 <span class="prices">393.00 <b style="font-size:13px;">грн.</b></span>
+                </figcaption>
             </div>
         </div>
     </div>
+    <section>
     <div class="sidebar2">
         <div class="sidebartitle2">
             <img src="img/list.png" alt="">
@@ -167,20 +207,20 @@
         </div>
         <ul class="sidebarli2">
             <li>
-                <label for="Brand1">
-                    <input type="checkbox" id="Brand1" value="send">
+                <label for="store1">
+                    <input type="checkbox" id="store1" value="send">
                     <span class="brand">Бренд 1</span>
                 </label>
             </li>
             <li>
-                <label for="Brand2">
-                    <input type="checkbox" id="Brand2" value="send">
+                <label for="store2">
+                    <input type="checkbox" id="store2" value="send">
                     <span class="brand">Бренд 2</span>
                 </label>
             </li>
             <li>
-                <label for="Brand3">
-                    <input type="checkbox" id="Brand3" value="send">
+                <label for="store3">
+                    <input type="checkbox" id="store3" value="send">
                     <span class="brand">Бренд 3</span>
                 </label>
             </li>
@@ -191,20 +231,20 @@
         </div>
         <ul class="sidebarli2">
             <li>
-                <label for="Brand1">
-                    <input type="checkbox" id="Brand1" value="send">
+                <label for="store4">
+                    <input type="checkbox" id="store4" value="send">
                     <span class="brand">Бренд 1</span>
                 </label>
             </li>
             <li>
-                <label for="Brand2">
-                    <input type="checkbox" id="Brand2" value="send">
+                <label for="store5">
+                    <input type="checkbox" id="store5" value="send">
                     <span class="brand">Бренд 2</span>
                 </label>
             </li>
             <li>
-                <label for="Brand3">
-                    <input type="checkbox" id="Brand3" value="send">
+                <label for="Brand6">
+                    <input type="checkbox" id="Brand6" value="send">
                     <span class="brand">Бренд 3</span>
                 </label>
             </li>
@@ -212,6 +252,8 @@
         <button><span>ВЫБРАТЬ</span></button>
     </div>
 </div>
+</section>
+</main>
 <div class="logoswrap">
     <div class="logos">
         <a href="#"><img src="img/toyo_tires.png" alt=""></a>
