@@ -1,11 +1,11 @@
-var users = [];
+var arr = [];
 var user;
 
 for (var i = 0; i < 5; i++) {
 
 	while (true) {
 
-		user = prompt('Введите ' + (i + 1) + ' имя:');
+		user = prompt('введите ' + (i + 1) + ' имя:');
 
 		if ((user != null) && (user != '')) {
 
@@ -13,20 +13,20 @@ for (var i = 0; i < 5; i++) {
 
 		}
 
-		alert('Введите имя!');
+		alert('введите имя!');
 
 	}
 
-	users[i] = user;
+	arr[i] = user;
 
 }
 
-var currentUser = prompt('Введите имя пользователя:');
+var currentUser = prompt('введите имя пользователя:');
 var flag = false;
 
-for (var i = 0; i < users.length; i++) {
+for (var i = 0; i < arr.length; i++) {
 
-	if (currentUser == users[i]){
+	if (currentUser == arr[i]){
 
 		flag = true;
 		break;
@@ -40,6 +40,6 @@ if (flag) {
 
 } else {
 
-	alert('Пользователь не зарегистрирован');
+	alert('ошибка');
 
 }
