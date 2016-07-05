@@ -1,22 +1,45 @@
-var arr = [];
-var i = 0;
+var users = [];
+var user;
 
-while (i < 5){
-	arr[i] = prompt('введите имя', 'вася');
-	i++;
-};
+for (var i = 0; i < 5; i++) {
 
-var user = prompt('введите имя пользователя', 'митя');
+	while (true) {
+
+		user = prompt('Введите ' + (i + 1) + ' имя:');
+
+		if ((user != null) && (user != '')) {
+
+			break;
+
+		}
+
+		alert('Введите имя!');
+
+	}
+
+	users[i] = user;
+
+}
+
+var currentUser = prompt('Введите имя пользователя:');
 var flag = false;
 
-for (var i = 0; i < arr.length; i++){
-	if (arr[i]===user){
-	flag = true
+for (var i = 0; i < users.length; i++) {
+
+	if (currentUser == users[i]){
+
+		flag = true;
+		break;
+
 	}
 }
 
 if (flag) {
-	alert(user + ', вы успешно вошли');
+
+	alert(currentUser + ', вы успешно вошли!');
+
 } else {
-	alert('error');
+
+	alert('Пользователь не зарегистрирован');
+
 }
