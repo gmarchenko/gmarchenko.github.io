@@ -1,0 +1,313 @@
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14px;
+    background: #61dab9;
+}
+
+.wrapper {
+    margin: 50px auto;
+    width: 960px;
+    -webkit-box-shadow: 0 0 10px black;
+    -moz-box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+    background: #abf540;
+}
+
+h1 {
+    padding: 15px;
+    font-size: 36px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #841C1C;
+    text-shadow: 3px 3px 5px rgb(200, 17, 17);
+}
+
+.main_nav {
+    width: 100%;
+    height: 34px;
+    background: #D69456;
+}
+
+.main_menu {
+    position: relative;
+}
+
+.main_menu--item {
+    position: relative;
+    float: left;
+    line-height: 24px;
+    -webkit-transition: 0.3s all linear;
+    -moz-transition: 0.3s all linear;
+    -o-transition: 0.3s all linear;
+    transition: 0.3s all linear;
+}
+
+.main_menu--item:hover {
+    background: #AE7844;
+}
+
+.main_dropdown > a {
+    background: url(../img/arrow-down.png) 70px center no-repeat;
+}
+
+.main_menu--link {
+    padding: 5px 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: 0.3s all linear;
+    -moz-transition: 0.3s all linear;
+    -o-transition: 0.3s all linear;
+    transition: 0.3s all linear;
+}
+
+.main_menu--link:hover {
+    color: black;
+}
+
+.sub_menu {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    display: none;
+    background-color: #6ec2da;
+    z-index: 1;
+}
+
+.sub_menu--link {
+    display: block;
+    padding: 5px 20px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 20px;
+    -webkit-box-shadow: inset 0 0 50px #835F41;
+    -moz-box-shadow: inset 0 0 50px #835F41;
+    box-shadow: inset 0 0 50px #835F41;
+    text-align: center;
+    background: #6ec2da;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.jcarousel_wrapper {
+    margin: 10px auto 40px auto;
+    position: relative;
+    border: 10px solid #fff;
+    width: 800px;
+    height: 600px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+.jcarousel_prev, .jcarousel_next {
+    position: absolute;
+    top: 285px;
+    width: 30px;
+    line-height: 30px;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+    transition: all 0.2s linear;
+}
+
+.jcarousel_prev:hover, .jcarousel_next:hover {
+    background: gray;
+}
+
+.jcarousel_prev {
+    left: -60px;
+}
+
+.jcarousel_next {
+    right: -60px;
+}
+
+.jcarousel_pagination {
+    padding: 20px 0;
+}
+
+.jcarousel_page {
+    display: inline-block;
+    margin: 0 10px;
+    width: 12px;
+    height: 12px;
+    background: #4E443C;
+    border: 2px black solid;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    transition: all 0.2s linear;
+}
+
+.jcarousel_page:hover {
+    background: gray;
+}
+
+.active {
+    background: white;
+}
+
+.custom_checkboxes{
+    position: relative;
+    overflow: hidden;
+}
+
+.custom_checkboxes p {
+    padding: 10px;
+}
+
+.custom_checkboxes label {
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+.custom_checkboxes button {
+    margin: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #CDD1DA;
+    cursor: pointer;
+}
+
+.custom_checkboxes button:hover {
+    background: #bbbbbb;
+    -webkit-box-shadow: 0 0 4px rgba(0,255,0,0.6);
+    -moz-box-shadow: 0 0 4px rgba(0,255,0,0.6);
+    box-shadow: 0 0 4px rgba(0,255,0,0.6);
+
+}
+
+.jquery_checkbox {
+    float: left;
+    margin: 10px;
+    width: 440px;
+    -webkit-box-shadow: 0 0 3px black;
+    -moz-box-shadow: 0 0 3px black;
+    box-shadow: 0 0 3px black;
+}
+
+.jquery_checkbox .checked {
+    overflow: visible !important;
+}
+
+.jquery_checkbox label {
+    padding: 5px;
+}
+
+.css_checkbox {
+    float: right;
+    margin: 10px;
+    width: 440px;
+    -webkit-box-shadow: 0 0 3px black;
+    -moz-box-shadow: 0 0 3px black;
+    box-shadow: 0 0 3px black;
+}
+
+/* Cначала обозначаем стили для IE8 и более старых версий
+т.е. здесь мы немного облагораживаем стандартный чекбокс. */
+.css_checkbox input {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.css_checkbox input + label {
+    cursor: pointer;
+}
+
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.css_checkbox input:not(checked) {
+    position: absolute;
+    opacity: 0;
+}
+.css_checkbox input:not(checked) + label {
+    position: relative; /* будем позиционировать псевдочекбокс относительно label */
+    padding: 0 0 14px 25px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.css_checkbox input:not(checked) + label:before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 40px;
+    height: 20px;
+    border-radius: 13px;
+    background: #CDD1DA;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.css_checkbox input:not(checked) + label:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.css_checkbox input:checked + label:before {
+    background: #9FD468;
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.css_checkbox input:checked + label:after {
+    left: 22px;
+}
+/* Показываем получение фокуса. */
+.css_checkbox input:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}
