@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lodash Template</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.rcarousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.0.0/lodash.min.js"></script>
+    <script src="js/script_lodash.js"></script>
+</head>
+<body>
+    <script type="text/template" id="template">
+    <div class="wrapper">
+        <div class="user-info clearfix">
+            <a class="change-tmpl" href="index.html">Change to Resig</a>
+            <a class="user-change user-change__1" href="#">fronender</a>
+            <a class="user-change user-change__2" href="#">cat</a>
+            <h1>Account info</h1>
+            <div class="menu-wrapper">
+                <h2>Search</h2>
+                <ul class="menu">
+                    <li class="menu-item"><a class="menu-link" href="http://google.com">Google</a></li>
+                    <li class="menu-item"><a class="menu-link" href="http://yandex.ru">Yandex</a></li>
+                    <li class="menu-item"><a class="menu-link" href="http://bing.com">Bing</a></li>
+                    <li class="menu-item"><a class="menu-link" href="http://ukr.net">Ukr.net</a></li>
+                </ul>
+            </div>
+            <div class="login-wrapper">
+                <h2 class="user-name"><%= data.userName %></h2>
+                <img class="user-icon" src="img/<%= data.userIcon %>">
+                <p><%= data.userPosition %></p>
+                <p class="user-description"><%= data.userDescription %></p>
+                <div class="contacts">
+                    <p>My phone number:</p>
+                    <p><%= data.userTel %></p>
+                </div>
+             </div>
+        </div>
+        <h1>rcarousel jQuery plugin</h1>
+        <div class="carousel-wrapper">
+            <ul class="carousel-list">
+                <li class="carousel-element"><img src="img/<%= data.mealPic1 %>"><p>Описание 1</p></li>
+                <li class="carousel-element"><img src="img/<%= data.mealPic2 %>"><p>Описание 2</p></li>
+                <li class="carousel-element"><img src="img/<%= data.mealPic3 %>"><p>Описание 3</p></li>
+                <li class="carousel-element"><img src="img/<%= data.mealPic4 %>"><p>Описание 4</p></li>
+                <li class="carousel-element"><img src="img/<%= data.mealPic5 %>"><p>Описание 5</p></li>
+            </ul>
+        </div>
+        <div class="carousel-controls">
+            <a class="carousel-arrow-left" href="#">Left</a>
+            <a class="carousel-arrow-right" href="#">Right</a>
+        </div>
+    </div>
+    </script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+body {
+    background-color: #63c7c6;
+}
+
+.wrapper {
+    margin: 40px auto;
+    padding: 10px;
+    width: 720px;
+    background-color: #d4ea79;
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.6);
+}
+
+.change-tmpl {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    width: 60px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.change-tmpl:hover {
+    color: white;
+    background-color: grey;
+}
+
+h1{
+    margin: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial;
+}
+
+.user-info {
+    position: relative;
+    text-align: center;
+    font-family: Arial;
+}
+
+.menu-wrapper {
+    float: left;
+    margin: 10px 15px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+}
+
+h2 {
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.menu-link {
+    display: block;
+    margin: 18px;
+    padding: 10px;
+    border: 1px solid grey;
+    text-decoration: none;
+    color: #000000;
+    background-color: #e4e4e4;
+    transition: 0.2s;
+}
+
+.menu-link:hover {
+    color: #ffffff;
+    background-color: #bbbbbb;
+}
+
+.user-change {
+    margin: 10px 20px;
+    padding: 10px;
+    width: 60px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+    font-size: 13px;
+}
+
+.user-change:hover {
+    color: white;
+    background-color: black;
+}
+
+.login-wrapper {
+    float: right;
+    margin: 10px 15px;
+    padding: 10px;
+    width: 350px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    -webkit-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.6);
+}
+
+.login-wrapper p {
+    margin: 10px;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.clearfix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.user-icon {
+    margin: 10px;
+    height: 150px;
+}
+
+.user-description {
+    height: 60px;
+}
+
+.carousel-list {
+    position: relative;
+    list-style: none;
+    width: 10000px;
+}
+
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.carousel-element img {
+    max-width: 200px;
+}
+
+.carousel-wrapper {
+    margin: 0 auto;
+    padding: 10px;
+    width: 650px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+}
+
+.carousel-controls {
+    margin: 25px;
+    text-align: center;
+}
+
+.carousel-arrow-left, .carousel-arrow-right {
+    margin: 10px;
+    padding: 10px;
+    width: 60px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+    font-family: Arial;
+}
+
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    color: white;
+    background-color: black;
+}
