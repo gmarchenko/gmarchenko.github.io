@@ -1,0 +1,11 @@
+.wrapper {
+    margin: 10px auto;
+    background: #454545;
+}
+
+.article {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background: #303030;
+}
