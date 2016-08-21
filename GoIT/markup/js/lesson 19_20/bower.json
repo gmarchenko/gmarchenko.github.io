@@ -1,0 +1,25 @@
+{
+  "name": "task 19-20",
+  "description": "Homework",
+  "main": "app.js",
+  "authors": [
+    "gmarchenko"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/gmarchenko/gmarchenko.github.io",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.*",
+    "fa-scss-plus": "^1.0.0",
+    "reset-css": "^2.0.2011012603",
+    "lodash": "^4.5.0",
+    "FlexSlider-Scss": "http://github.com/Studio-40/FlexSlider-Scss.git#^1.0.0"
+  }
+}

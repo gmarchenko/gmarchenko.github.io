@@ -1,0 +1,146 @@
+// header block
+
+.header-upper {
+  line-height: 37px;
+  padding: 37px 0;
+  overflow: hidden;
+}
+
+.logo {
+  background:transparent url('../img/logo.png') left top no-repeat;
+  float: left;
+  padding-left: 52px;
+}
+
+.logo__header {
+  color: $logo-header-color;
+  font-family: $ubuntu-m;
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.logo__text {
+  padding-left: 2px;
+  color: $logo-paragraph-color;
+  font-family: $ubuntu-l;
+  opacity: 0.65;
+  font-size: 12px;
+  text-transform: uppercase;
+  vertical-align:bottom;
+  line-height: 18px;
+}
+
+.menu-socials {
+  float: right;
+  height: 37px;
+}
+
+.menu-socials__item {
+  display: inline-block;
+  width: 33px;
+  color: $very-light-gray;
+
+  &::before {
+    @include fa;
+  }
+
+  &:hover {
+    cursor: pointer;
+    color: $blue;
+  }
+}
+
+.facebook:before {
+  @include fa(facebook);
+}
+
+.twitter:before {
+  @include fa(twitter);
+}
+
+.rss:before {
+  @include fa(rss);
+}
+
+.linkedin:before {
+  @include fa(linkedin);
+}
+
+.skype:before {
+  @include fa(skype);
+}
+
+.menu-main {
+  margin-bottom: 40px;
+  background-color: $dark-gray;
+}
+
+.menu-main__item {
+  display: inline-block;
+  border-right: 1px solid $almost-black;
+
+  &:last-child {
+    float: right;
+    padding: 0;
+    border: 0;
+  }
+
+  &--active {
+    background-color: $blue;
+    border: 0;
+
+    &:hover .menu-main__link {
+      color: $white;
+    }
+  }
+}
+
+.menu-main__link {
+  display: block;
+  padding: 0 40px;
+  line-height: 56px;
+  font-family: $ubuntu-c;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: $white;
+
+  &:visited {
+    color: $white;
+  }
+
+  &:hover {
+    color: $yellow;
+  }
+}
+
+.menu-main__search {
+  margin: 8px;
+  padding: 0 12px;
+  line-height: 40px;
+  border: 1px solid $almost-black;
+  background-color: $gray;
+  color: $white;
+
+  &:after {
+    @include fa;
+    @include fa(search);
+    @include fa(left);
+    opacity: 0.15;
+  }
+
+  & input {
+    border: 0;
+    background-color: $gray;
+    color: $white;
+    font-family: $arial;
+    font-size: 12px;
+    opacity: 0.15;
+  
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+
+

@@ -1,0 +1,95 @@
+// main
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1160px;
+}
+
+a {
+  text-decoration: none;
+}
+
+// colors
+
+$logo-header-color: #434343;
+$logo-paragraph-color: #333333;
+$white: #ffffff;
+$almost-white: #e8e8e8;
+$very-light-gray: #cccccc;
+$light-gray: #8a8a8a;
+$gray: #35383c;
+$dark-gray: #2a2d32;
+$darkest-gray: #2a2b2e;
+$almost-black: #181a1d;
+$yellow: #f4b60d;
+$blue: #248cec;
+$news-description-color: #9d9d9d;
+
+// fonts
+
+@font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/ubuntu-r-webfont.eot');
+    src: url('../fonts/ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-r-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-r-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-r-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu_condensed';
+    src: url('../fonts/ubuntu-c-webfont.eot');
+    src: url('../fonts/ubuntu-c-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-c-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-c-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-c-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu_light';
+    src: url('../fonts/ubuntu-l-webfont.eot');
+    src: url('../fonts/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-l-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-l-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-l-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu_medium';
+    src: url('../fonts/ubuntu-m-webfont.eot');
+    src: url('../fonts/ubuntu-m-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-m-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-m-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-m-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$arial: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$ubuntu-r: 'ubuntu', sans-serif;
+$ubuntu-c: 'ubuntu_condensed', sans-serif;
+$ubuntu-l: 'ubuntu_light', sans-serif;
+$ubuntu-m: 'ubuntu_medium', sans-serif;
+
+//mixins
+
+@mixin clearfix {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+@mixin square($value: 100%) {
+    width: $value;
+    height: $value;
+}

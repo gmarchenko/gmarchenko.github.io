@@ -1,0 +1,16 @@
+/*
+ * Third party
+ */
+
+@import "../libs/reset-css/_reset";
+@import "../libs/fa-scss-plus/_fontawesome";
+@import "../libs/FlexSlider-Scss/flexslider.scss";
+
+/*
+ * Custom
+ */
+
+@import "_variables";
+@import "partials/_header";
+@import "partials/_content";
+@import "partials/_footer";

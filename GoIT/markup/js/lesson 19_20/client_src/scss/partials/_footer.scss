@@ -1,0 +1,88 @@
+// footer block
+
+.menu-footer {
+  background-color: $dark-gray;
+}
+
+.menu-bottom-wrapper {
+  display: inline-block;
+  width: 260px;
+  margin-right: 36px;
+  margin-bottom: 83px;
+
+  &:last-child {
+      margin-right: 0;
+  }
+}
+
+.menu-bottom-header {
+  margin-top: 63px;
+  margin-bottom: 37px;
+  color: $white;
+  font-family: $ubuntu-m;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.footer-contacts {
+  line-height: 60px;
+  background-color: $gray;
+}
+
+.menu-bottom__item {
+  line-height: 36px;
+  border-bottom: 1px solid #393c40;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.menu-bottom__link {
+  color: $white;
+  font-family: $arial;
+  font-size: 13px;
+  opacity: 0.3;
+
+  &:visited {
+    color: $white;
+  }
+
+  &:hover {
+    color: $blue;
+    opacity: 1;
+  }
+}
+
+.footer-contacts__item {
+  color: $white;
+  font-family: $arial;
+  font-size: 12px;
+  opacity: 0.2;
+
+  &::before {
+    @include fa;
+    @include fa-right(20px);
+    @include fa-align(baseline);
+  }
+}
+
+.footer-contacts__item--address::before {
+  @include fa(map-marker);
+}
+
+.footer-contacts__item--phone {
+  margin: 0 41px 0 33px;
+
+  &::before {
+    @include fa(mobile);
+  }
+}
+
+.footer-contacts__item--email::before {
+  @include fa(credit-card);
+}
+
+.footer-contacts__item--title {
+  float: right;
+}

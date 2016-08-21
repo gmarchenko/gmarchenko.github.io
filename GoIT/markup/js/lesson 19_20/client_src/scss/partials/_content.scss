@@ -1,0 +1,359 @@
+// slider
+
+.flexslider {
+  box-shadow: none;
+}
+
+.flex-control-nav {
+  bottom: 15px;
+}
+
+.flex-control-paging li {
+  vertical-align: middle;
+
+  a {
+    @include square(15px);
+    border-radius: 0;
+    background-color: white;
+
+    &.flex-active {
+      border: 3px solid white;
+    }
+  }
+}
+
+// intro block
+
+.intro {
+  margin: 75px 0 85px 0;
+}
+
+.intro-article {
+  margin-right: 36px;
+  display: inline-block;
+  width: 360px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+@for $i from 1 to 4 {
+  .intro-article__title--#{$i} {
+    background: url(../img/intro-#{$i}.png) 120px 13px no-repeat;
+  }
+}
+
+.intro-article__number {
+  display: inline-block;
+  width: 120px;
+  color: $darkest-gray;
+  opacity: 0.1;
+  font-family: $ubuntu-m;
+  font-size: 90px;
+}
+
+.intro-article__header {
+  display: inline;
+  width: 240px;
+  color: $darkest-gray;
+  font-family: $ubuntu-m;
+  font-size: 20px;
+}
+
+.intro-article__text {
+  overflow: hidden;
+  margin: 10px 0 20px 120px;
+  height: 58px;
+  line-height: 20px;
+  color: $light-gray;
+  font-family: $arial;
+  font-size: 13px;
+}
+
+.intro-article__more {
+  margin-left: 120px;
+  color: $darkest-gray;
+  font-family: $ubuntu-m;
+  font-size: 13px;
+
+  &::after {
+    @include fa;
+    @include fa(arrow-right);
+    @include fa-left(10px);
+    @include fa-align(baseline);
+    color: $blue;
+  }
+
+  &:hover {
+    color: $blue;
+
+    &::after {
+      color: $light-gray;
+    }
+  }
+}
+
+// services block
+
+.services {
+  background-color: $dark-gray;
+}
+
+.services__header {
+  padding: 50px 0 54px 0;
+  color: $white;
+  font-family: $ubuntu-m;
+  font-size: 24px;
+}
+
+.services__articles {
+  padding-bottom: 70px;
+}
+
+.services-article {
+  display: inline-block;
+  padding-right: 36px;
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+.services-article__anchor:hover {
+
+  & .services-article__outer-image {
+    background: $blue url(../img/services-cross.png) center no-repeat;
+  }
+
+  & .services-article__inner-image {
+    opacity: 0.2;
+  }
+
+  & .services-article__title {
+    color: $yellow;
+  }
+}
+
+.services-article__title {
+  padding-top: 30px;
+  text-align: center;
+  color: $white;
+  font-family: $ubuntu-m;
+  font-size: 16px;
+}
+
+.services-article__outer-image {
+  @include square(260px);
+}
+
+@for $i from 1 to 5 {
+  .services-article__inner-image--#{$i} {
+    @include square;
+    background: url(../img/services-#{$i}.png) top right no-repeat;
+  }
+}
+
+// latest-news block
+
+// news
+
+.latest-news {
+  padding: 64px 0 64px 0;
+
+  &::after {
+    @include clearfix;
+  }
+}
+
+.news {
+  float: left;
+  width: 49.8%;
+}
+
+.news__header {
+  margin-bottom: 48px;
+  color: $dark-gray;
+  font-family: $ubuntu-m;
+  font-size: 24px;
+}
+
+.news__article {
+  position: relative;
+  margin-bottom: 29px;
+  padding-left: 183px;
+  height: 150px;
+
+  &::after {
+    @include clearfix;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.news__image {
+  @include square(150px);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.news__dates {
+  position: absolute;
+  top: 13px;
+  left: -15px;
+}
+
+.news__month {
+  @include square(40px);
+  text-align: center;
+  line-height: 40px;
+  color: $white;
+  background-color: $blue;
+  font-family: $ubuntu-m;
+  font-size: 15px;
+}
+
+.news__date {
+  @include square(40px);
+  text-align: center;
+  line-height: 40px;
+  color: $dark-gray;
+  background-color: $yellow;
+  font-family: $ubuntu-m;
+  font-size: 18px;
+}
+
+.news__title {
+  display: block;
+  padding-bottom: 10px;
+  color: $dark-gray;
+  font-family: $ubuntu-m;
+  font-size: 16px;
+
+  &:hover {
+    color: $blue;
+  }
+}
+
+.news__text {
+  line-height: 20px;
+  color: $light-gray;
+  font-family: $arial;
+  font-size: 13px;
+}
+
+.news__description {
+  padding-bottom: 30px;
+  color: $news-description-color;
+  font-family: $arial;
+  font-size: 13px;
+}
+
+.news__author, .news__comments {
+  color: $blue;
+}
+
+// banners
+
+.banners {
+  float: right;
+  width: 49.8%;
+}
+
+.banners__header {
+  margin-bottom: 48px;
+  color: $dark-gray;
+  font-family: $ubuntu-m;
+  font-size: 24px;
+}
+
+.banners__panel {
+  margin-bottom: 7px;
+  height: 39px;
+  color: $dark-gray;
+  border: 1px solid $almost-white;
+  text-align: center;
+
+  &::before {
+    @include square(39px);
+    float: left;
+    border-right: 1px solid $almost-white;
+    content: '+';
+    line-height: 39px;
+  }
+
+  &--active {
+    background-color: $yellow;
+    color: $white;
+  }
+}
+
+.banners__title {
+  line-height: 39px;
+  font-family: $ubuntu-m;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.banners__text {
+  display: none;
+  padding: 23px 0 43px 39px;
+  line-height: 20px;
+  color: $light-gray;
+  font-family: $arial;
+  font-size: 13px;
+
+  &--active {
+    display: block;
+  }
+}
+
+
+
+// anchors block
+
+.anchors {
+  padding: 100px 0 90px 0;
+  text-align: center;
+}
+
+.menu-anchors__item {
+  display: inline-block;
+
+  &:nth-child(1) .menu-anchors__link {
+    background: url(../img/anchors-1.png) center no-repeat;
+  }
+
+  &:nth-child(2) .menu-anchors__link {
+    background: url(../img/anchors-2.png) center no-repeat;
+  }
+
+  &:nth-child(3) .menu-anchors__link {
+    background: url(../img/anchors-3.png) center no-repeat;
+  }
+
+  &:nth-child(4) .menu-anchors__link {
+    background: url(../img/anchors-4.png) center no-repeat;
+  }
+
+  &:nth-child(5) .menu-anchors__link {
+    background: url(../img/anchors-5.png) center no-repeat;
+  }
+
+  &:nth-child(6) {
+    margin-right: 0;
+
+    & .menu-anchors__link {
+      background: url(../img/anchors-6.png) center no-repeat;
+    }
+  }
+}
+
+.menu-anchors__link {
+  display: block;
+  width: 190px;
+  height: 70px;
+}
