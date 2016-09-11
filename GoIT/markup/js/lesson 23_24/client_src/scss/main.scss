@@ -1,0 +1,114 @@
+$color-button-nondestructive: #24d524;
+$color-button-nondestructive--hover: #1fae1f;
+$color-button-destructive: red;
+$color-button-destructive--hover: #bb0000;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 40px;
+  background-color: #569d82;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+  padding: 20px;
+  box-shadow: 0 0 5px 1px rgba(200, 200, 200, 0.8);
+  background-color: #fff;
+}
+
+.header__title {
+  text-align: center;
+}
+
+.list__title {
+  text-align: center;
+}
+
+.list__elem {
+  list-style: none;
+}
+
+.list__text {
+  display: inline-block;
+  width: 90%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.list__buttons {
+  width: 10%;
+  display: inline-block;
+  text-align: right;
+}
+
+.list__remove-item {
+  margin: 5px 15px;
+  padding: 3px 8px;
+  border: 1px solid grey;
+  display: inline-block;
+  border-radius: 12px;
+  color: white;
+  background-color: $color-button-destructive;
+  font-size: 13px;
+
+  &:hover {
+    background-color: $color-button-destructive--hover;
+    cursor: pointer;
+  }
+}
+
+.list__edit-item {
+  display: inline-block;
+  padding: 2px 9px;
+  border: 1px solid grey;
+  border-radius: 14px;
+  background-color: $color-button-nondestructive;
+  font-size: 13px;
+
+  &:hover {
+    background-color: $color-button-nondestructive--hover;
+    cursor: pointer;
+  }
+}
+
+.list__input {
+  width: 100%;
+}
+
+.button-wrapper {
+  margin-bottom: 20px;
+}
+
+.list__add-button {
+  float: left;
+  background-color: $color-button-nondestructive;
+  padding: 2px 9px;
+  border: 1px solid grey;
+  border-radius: 14px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-button-nondestructive--hover;
+  }
+}
+
+.list__reset-button {
+  background-color: $color-button-destructive;
+  float: right;
+  color: white;
+  padding: 2px 9px;
+  border: 1px solid grey;
+  border-radius: 14px;
+  cursor: pointer;
+
+    &:hover {
+      background-color: $color-button-destructive--hover;
+    }
+}

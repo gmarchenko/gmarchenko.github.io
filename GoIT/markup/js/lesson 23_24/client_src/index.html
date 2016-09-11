@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task 23_24</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <h1 class="header__title">todo-list</h1>
+        </div>
+    </header>
+
+    <section class="list">
+        <div class="wrapper">
+            <h2 class="list__title">MVC</h2>
+            <ul id="list">
+            </ul>
+            <textarea class="list__input" placeholder="Enter your note" autofocus></textarea>
+            <div class="button-wrapper">
+                <button class="list__add-button">Save</button>
+                <button class="list__reset-button">Reset All</button>
+            </div>
+        </div>
+    </section>
+
+    <script id="list-template" type="text/template">
+        <% for (var i = 0; i < data.length; i++) { %>
+        <li class="list__elem">
+            <pre class="list__text"><%= data[i] %></pre><div class="list__buttons"><span class="list__remove-item">x</span><span class="list__edit-item">Edit</span></div>
+        </li>
+        <% };%>
+    </script>
+
+</body>
+</html>
