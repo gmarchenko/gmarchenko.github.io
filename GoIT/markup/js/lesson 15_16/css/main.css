@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.inputSearch {
+	 width: 100%;
+	line-height: 30px;
+	border: 1px solid lightblue;
+	margin-bottom: 30px;
+}
+.wrapform {
+ 	width: 450px; 
+	 margin: 5% auto 0; 
+}
+.logo,
+.wrapButton {
+	text-align: center;
+
+}
+.butBig {
+	height: 35px;
+	width: 135px;
+	color: grey;
+	background-color: #F0F0F0;
+	border: 1px solid transparent;
+	font-weight: bold;
+	font-size: 12px;
+
+}
+.butBig:hover {
+	color: black;
+	border: 1px solid #ccc;
+
+} 
+.inline{
+	display: inline-block;
+	margin:0;
+}
+.wrapper{
+	margin: 20px;
+	width:  40%;
+}
+.wrapper>a{
+	font-size: 20px;
+}
+.link {
+	color: darkgreen;
+}
