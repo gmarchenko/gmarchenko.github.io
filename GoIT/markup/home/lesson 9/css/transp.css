@@ -1,0 +1,34 @@
+.background_transp {
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000); 
+}
+
+.background_image {
+	width: 100%;
+	background: url("../img/bg.jpg") ;
+-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.jpg',sizingMethod='scale')";    	
+
+}
+.slide-link--head .slide-link__link {
+	height: 18px;
+	width: 18px;
+	background: url(../img/dd.png);
+	background-position: -1px -1px;
+
+}
+.slide-link--head .slide-link__link:hover {
+	border:none;
+	background: url(../img/dd.png);
+	background-position: 18px -1px;
+
+}
+
+.slide-link--white .slide-link__link {
+	height: 18px;
+	width: 18px;
+	background: url(../img/dd.png);
+	background-position: -1px 20px;
+}
+.slide-link--white .slide-link__link:hover {
+	background: url(../img/dd.png);
+	background-position: 18px 20px;
+}
