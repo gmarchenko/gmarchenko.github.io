@@ -1,0 +1,102 @@
+@media screen and (min-width: 1440px) {
+  /*================  HEADER  =====================*/
+  header .wrapper {
+    max-width: auto; }
+
+  header section {
+    margin-left: 473px; }
+
+  header .brand {
+    margin-left: 249px; }
+
+  header .login {
+    margin-left: 770px; }
+
+  header .section__but {
+    height: 39px; }
+
+  /*=========================  CONTENT ===============================*/
+  .content img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover; }
+
+  .content .wrapper {
+    max-width: 968px; }
+
+  .content .wrapper--content {
+    width: 300px;
+    margin-right: 11px; }
+
+  #fstDesc, #scdDesc, #thdDesc {
+    width: 262px; }
+
+  .bx-wrapper .bx-prev {
+    left: 21px; }
+
+  .bx-wrapper .bx-controls-direction a {
+    top: 38%; }
+
+  /*==========================  PARTNERS  ===============================*/
+  .partners {
+    height: 476px;
+    margin: 0 auto; }
+
+  .partners .wrapper {
+    max-width: 983px;
+    height: 445px;
+    margin: 0 auto; }
+
+  .partners .wrapper figure {
+    margin: 32px 0 0 24px;
+    float: left; }
+
+  .partners a {
+    margin-top: 303px; }
+
+  /*==========================  IDEAS   ===============================*/
+  .ideas {
+    width: 960px;
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 103px; }
+
+  /*==========================  SEARCH   ===============================*/
+  .search .wrapper {
+    max-width: auto;
+    margin: 0 auto; }
+
+  .searchForm input {
+    margin-left: 514px;
+    width: 225px; }
+
+  .search button {
+    margin: 40px 499px 0 0; }
+
+  /*==========================  FOOTER   ===============================*/
+  footer .wrapper {
+    width: 1440px;
+    margin: 0 auto; }
+
+  footer figure {
+    margin: -31px 199px 0px 0; }
+
+  footer article {
+    margin-left: 247px;
+    margin-top: -9px; }
+
+  footer .footer--partners {
+    margin: -118px 637px 0 0; }
+
+  footer span {
+    margin: -9px 0 0 93px; }
+
+  footer figure span {
+    margin-top: 14px;
+    margin-bottom: 7px;
+    margin-left: 82px; }
+
+  footer .about {
+    margin: 46px 0 0 489px; } }
+
+/*# sourceMappingURL=style960.css.map */

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Final Exam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script/jquery.js"></script>
+    <script type="text/javascript" src="script/jquery.bxslider.js"></script>
+    <link rel="stylesheet" href="style/css/reset.css">
+    <link rel="stylesheet" href="style/css/mainstyle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="login">
+          <a href="#">Log in</a>
+          <a href="#">Sign up</a>
+        </div>
+        <section class="brand">
+          <span>URLAUBSGLÜCK</span>
+        </section>
+        <section>
+          <span>SHARE YOUR HOLIDAY DREAMS</span>
+          <div class="sub__span">
+            <span>And find the perfect partner to fullfill it</span>
+          </div>
+          <div class="section__but">
+            <a class="pinkOval" href="#">Find your holiday partner</a>
+          </div>
+        </section>
+      </div>
+    </header>
+    <div class="content">
+      <div class="wrapper">
+      <article>How Urlaubsglück works?</article>
+      <div class="wrapper--content">
+        <img id="smallPicWork" src="img/step1small.png" alt="picture" />
+         <ul class="bxslider">
+          <li><img id="bigPicWork" src="img/step1.jpg" alt="picture" /></li>
+          <li><img id="bigPicWork" src="img/step2.jpg" alt="picture" /></li>
+          <li><img id="bigPicWork" src="img/step3.jpg" alt="picture" /></li>
+        </ul>
+          <div id="fstDesc" class="content--description">
+            <a href="#">STEP 1</a>
+            <h2>Sed leo enim, condimentum</h2>
+            <span class="">Quisque libero libero, dictum non turpis in, luctus semper lore. Donec rhoncus a leo sit amet facilisis.</span>
+         </div>
+      </div>
+      <div  class="wrapper--content">
+        <img id="smallPicWork" src="img/step2small.png" alt="picture" />
+        <ul class="bxslider">
+          <li><img id="bigPicWork" src="img/step2.jpg" alt="picture" /></li>
+          <li><img id="bigPicWork" src="img/step1.jpg" alt="picture" /></li>
+          <li><img id="bigPicWork" src="img/step3.jpg" alt="picture" /></li>
+        </ul>
+        <div id="scdDesc" class="content--description">
+            <a href="#">STEP 2</a>
+            <h2>Morbi velit risus</h2>
+            <span class="">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</span>
+        </div>
+      </div>
+      <div class="wrapper--content">
+        <img id="smallPicWork" src="img/step3small.png" alt="picture" />
+        <ul class="bxslider">
+          <li><img id="bigPicWork" src="img/step3.jpg" alt="picture" /></li>
+          <li><img id="bigPicWork" src="img/step2.jpg" alt="picture" /></li>
+          <li><img id="bigPicWork" src="img/step1.jpg" alt="picture" /></li>
+        </ul>
+        <div id="thdDesc" class="content--description">
+            <a href="#">STEP 3</a>
+            <h2>Sed leo enim, condimentum</h2>
+            <span class="">Quisque libero libero, dictum non turpis in, luctus semper lore. Donec rhoncus a leo sit amet facilisis.</span>
+        </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="partners">
+      <div class="wrapper">
+        <article>Meet a partner for your best holiday</article>
+        <figure class="fstPartner">
+          <img id="photo" src="img/ptnr1.jpg" alt="partner1" />
+          <img class="round" src="img/redRound.png" alt="red round" />
+          <h1>Bradley Hunter</h1>
+          <span>Based in Chicago. I love playing tennis and loud music.</span>
+        </figure>
+        <figure class="scdPartner">
+          <img id="photo" src="img/ptnr2.jpg" alt="partner2" />
+          <img class="round" src="img/yelRound.png" alt="yellow round" />
+          <h1>Lucas Marsha</h1>
+          <span>I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</span>
+        </figure>
+        <figure class="thdPartner">
+          <img id="photo" src="img/ptnr3.jpg" alt="partner3" />
+          <img class="round" src="img/greenRound.png" alt="green round" />
+          <h1>Heather Walker</h1>
+          <span>I'm a happy person that loves cats and climbing on mountains.</span>
+        </figure>
+        <figure class="fthPartner">
+          <img id="photo" src="img/ptnr4.jpg" alt="partner4" />
+          <img class="round" src="img/blueRound.png" alt="blue round" />
+          <h1>Heather Walker</h1>
+          <span>Based in Chicago. I love playing tennis and loud music.</span>
+        </figure>
+        <a href="#">See other partners</a>
+      </div>
+    </div>
+
+    <div class="ideas" id="idea">
+
+    </div>
+
+    <div class="search">
+      <div class="wrapper">
+        <article>Discover holiday activity ideas</article>
+        <h1>Hi! What are your holiday interests?</h1>
+        <form id="searchForm" class="searchForm" action="index.html" method="post">
+          <input id="inputSearchForm" class="text" type="text" name="interest" placeholder="Enter your interests"/>
+        </form>
+        <button id="search_submit" type="button" name="button" >Search partners</button>
+      </div>
+    </div>
+
+    <footer>
+      <div class="wrapper">
+        <article>URLAUBSGLÜCK</article>
+        <span>Company</span>
+        <div class="about">
+          <a href="#">About</a>
+          <a href="#">Contacts</a>
+          <a href="#">Press</a>
+          <a href="#">Blog</a>
+        </div>
+        <span class="footer--partners">Partners</span>
+        <figure>
+          <span>DESIGNED BY</span>
+          <img src="img/areto.png" alt="Areto" />
+        </figure>
+      </div>
+    </footer>
+
+    <!--[if IE]><![if !IE]><![endif]-->
+    <script type="text/javascript" src="script/script.min.js"></script>
+    <!--[if IE]><![endif]><![endif]-->
+
+
+    <!--[if (lte IE 8)]>
+    <script type="text/javascript" src="script/css3-mediaqueries.js"></script>
+    <script type="text/javascript" src="script/respond.min.js"></script>
+    <link rel="stylesheet" href="style/css/style-ie8.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+    <script type="text/javascript" src="script/scriptIE.min.js"></script>
+    <![endif]-->
+  </body>
+
+</html>
